@@ -19,7 +19,7 @@ body {
   color: #fff;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 5s steps(18) forwards;
+  animation: typing 5s steps(18) infinite;
 }
 
 .typewriting::after {
@@ -52,6 +52,6 @@ body {
   }
 
   100% {
-    width: 305px;
+    width: 320px;
   }
 }
